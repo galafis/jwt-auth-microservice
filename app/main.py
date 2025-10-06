@@ -126,7 +126,14 @@ async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(s
             detail="User not found"
         )
     
-    return users_db[user_id]
+    user_data = users_db[user_id]
+    return User(
+        id=user_data["id"],
+        email=user_data["email"],
+        role=user_data["role"],
+        is_active=user_data.get("is_active", True),
+        created_at=user_data["created_at"]
+    )
 
 def require_role(allowed_roles: List[str]):
     """Dependency to check user role"""
