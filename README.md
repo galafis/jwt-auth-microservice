@@ -1,11 +1,5 @@
 # 🔐 JWT Authentication Microservice
 
-[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-green.svg)](https://fastapi.tiangolo.com/)
-[![JWT](https://img.shields.io/badge/JWT-Auth-orange.svg)](https://jwt.io/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)](https://www.postgresql.org/)
-[![Redis](https://img.shields.io/badge/Redis-7-red.svg)](https://redis.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 [English](#english) | [Português](#português)
 
